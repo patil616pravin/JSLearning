@@ -1,0 +1,13 @@
+console.log("------------Assignment No.2--------------");
+console.log("--------Step 1-------");
+var BankName = "SBI Bank";
+console.log("BankName =>",BankName,typeof BankName);
+console.log("--------Step 2-------");
+var Marks ='90%';
+console.log("Marks =>",Marks,typeof Marks);
+console.log("--------Step 3-------");
+var isWorking = true;
+console.log("Working =>",isWorking,typeof IsWorking);
+console.log("--------Step 4-------");
+var totalCount = "Hunderd and Seven";
+console.log("totalCount =>",totalCount,typeof totalCount);

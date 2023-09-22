@@ -1,4 +1,7 @@
 var myFullName;
+myFullName = "undefined";
+console.log(myFullName);
+
 myFullName = "Pravin Patil";
 console.log(myFullName);
 myFullName = "Pravin Dilip Patil";
