@@ -11,3 +11,5 @@ console.log("Working =>",isWorking,typeof IsWorking);
 console.log("--------Step 4-------");
 var totalCount = "Hunderd and Seven";
 console.log("totalCount =>",totalCount,typeof totalCount);
+totalCount = 107;
+console.log("Updated Total Count =>",totalCount,typeof totalCount);
