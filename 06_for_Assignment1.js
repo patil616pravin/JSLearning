@@ -31,3 +31,11 @@ for (let index = 100; index >= 10; index=index-10){
 
 }
     
+console.log(`====== Adding element in first position  =========`);
+arrayNumbers.unshift(99);
+console.log(arrayNumbers);
+
+let arrayN = [22, 11, 44, 55, 77, 33];
+console.log(`====== Removing element in first position =========`);
+arrayN.shift();
+console.log(arrayN);
