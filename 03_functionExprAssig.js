@@ -24,20 +24,17 @@ console.log("============Step 2==============");
 console.log(`type of function expression is :${typeof square}`);
 
 console.log("============Step 3==============");
-var rectLength = function(value1,value2){
-    console.log("Length of rectangle is = 499");
-    console.log("Width of rectangle is = 917");
-    result = (value1*value2);
-    return result
+let rectLength = function(value1,value2){
+    //console.log("Length of rectangle is = 499");
+    //console.log("Width of rectangle is = 917");
+     console.log("Total Area of rectangle is :",value1*value2);
 }
 rectLength (499,917)
-console.log("Total Area of rectangle is :",result);
-
 
 console.log("============Step 4==============");
 var SwapValues = function(arg1,arg2){
     console.log("Before swap ==>",arg1,arg2);
-    temp = arg1
+    var temp = arg1
     arg1 = arg2
     arg2 = temp
     console.log("After swap ==>",arg1,arg2);
@@ -47,15 +44,13 @@ SwapValues("Mahi","Raina")
 console.log("=====================================");
 var swapNum = function(value1,value2){
     console.log("Before swap ==>",value1,value2);
-    temp = value1
+    var temp = value1
     value1 = value2
     value2 = temp
     console.log("After swap ==>",value1,value2);
 }
 swapNum(55,77)
-var string = function(){    ``
-    console.log();
-}
+
 console.log("============Step 5==============");
 var swap = function(){
     var string = "JS the most popular language of internet"

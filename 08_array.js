@@ -106,11 +106,18 @@ console.log(`for of loop`);
 for (const element of arrayNumber) {
     console.log(element);
 }
+console.log('===========================================');
 
- const array = [1, 2, 3, 4]
- for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+ var arrayNumber = [1, 2, 3, 4]
+ for (let index = 0; index < arrayNumber.length; index++) {
+    const element = arrayNumber[index];
+    console.log(element);
+ }
+ console.log('=================================================');
+ let arrayNu = [10,20,30,40,50];
+ for (let index = (arrayNu.length-1); index >=0; index--) {
+    const element = arrayNu[index];
+    console.log(element);
     
  }
 
- const array = [20];

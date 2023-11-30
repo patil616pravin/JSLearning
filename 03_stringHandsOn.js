@@ -9,14 +9,14 @@ console.log("-------------------------------------------------------------------
 
 
 var trimStr = str.trim();
-console.log("step3---removing string spaces:", trimStr);
+console.log("Q3---removing string spaces:", trimStr);
 console.log("string:", trimStr.length);
 console.log("---------------------------------------------------------------------------");
 
 
 var str = "      Hey you are doing good, keep it up   ";
 var extraSpacesCount = str.length -str.trim().length;
-var trimStr = str.trim();
+//var trimStr = str.trim();
 console.log("Q4---extra spaces removed:", extraSpacesCount);
 console.log("---------------------------------------------------------------------------");
 

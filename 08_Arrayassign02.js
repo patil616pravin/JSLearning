@@ -14,7 +14,7 @@ const thirdToLastElement = arrayNumber[arrayNumber.length - 3];
 console.log('Third to last element:', thirdToLastElement);
 
 console.log("==========================Q4=============");
-evenNumbers = [];
+const evenNumbers = [];
 for (let i = 0; i < arrayNumber.length; i++) {
   if (arrayNumber[i] % 2 == 0) {
     evenNumbers.push(arrayNumber[i]);
@@ -90,3 +90,5 @@ console.log(arrayNumber);
 console.log("==========================Q13=============");
 arrayNumber.splice(4,3)
 console.log(arrayNumber);
+
+console.log('=========================');
