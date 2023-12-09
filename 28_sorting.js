@@ -12,8 +12,9 @@ console.log(reverseArray);
 
 console.log('======= Sorting an array of number ================');
 const array =  [29, 15, 31, 111, 27, 6];
-// Sorting an array in ascending order
+//Sorting an array in ascending order
 const newArray = array.sort( (a, b) => {
     return a>b ? 1 : -1;
 } );
 console.log(newArray);
+12
